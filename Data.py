@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+Hey [👋](https://telegra.ph/file/57873ee2279555866f4c9.jpg) {}
 
 Welcome to {}
 
@@ -12,22 +12,22 @@ I can help you to do stuff on PDFs as well as convert images to PDF. Use /help t
 
 JUST SEND A PDF (or an image) to get started.
 
-By @StarkBots
+By @TamilBots
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton(text="ʜᴏᴍᴇ", callback_data="home")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("Uᴘᴅᴀᴛᴇs", url="https://t.me/tamilbots")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("ᴅᴇᴠ", url="https://t.me/StarkBots")],
     ]
 
     # Help Message
@@ -49,13 +49,17 @@ By @StarkBots
     ABOUT = """
 **About This Bot** 
 
-A telegram bot with PDF Tools by @StarkBots
+A telegram bot with PDF Tools by @TamilBots
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/PDFBot)
+Source Code : [Click Here](https://github.com/IamBluedragon)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : [TamilBotz](t.me/tamilbotz)
+
+Support : [Tamil Supports](t.me/TamilSupport)
+
+Updates : [TamilBots](t.me/tamilbots)
     """
