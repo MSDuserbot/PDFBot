@@ -27,7 +27,7 @@ By @TamilBots
             InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
         ],
-        [InlineKeyboardButton("ᴅᴇᴠ", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("ᴅᴇᴠ", url="https://t.me/AboutMK")],
     ]
 
     # Help Message
